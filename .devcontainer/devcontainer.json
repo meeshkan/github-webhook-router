@@ -1,0 +1,7 @@
+{
+  "name": "Haskell",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}

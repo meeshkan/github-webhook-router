@@ -7,6 +7,6 @@
 /robots.txt RobotsR GET
 
 / HomeR GET POST
-/_ah/health HealthR GET
 
 /comments CommentR POST
+/_ah/health HealthR GET

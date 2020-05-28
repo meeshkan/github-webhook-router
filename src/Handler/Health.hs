@@ -1,9 +1,6 @@
-{-# LANGUAGE NoImplicitPrelude #-}
-{-# LANGUAGE OverloadedStrings #-}
-{-# LANGUAGE TemplateHaskell #-}
-{-# LANGUAGE MultiParamTypeClasses #-}
-{-# LANGUAGE TypeFamilies #-}
 module Handler.Health where
 
+import Import
+
 getHealthR :: Handler Html
-getHealthR = defaultLayout [whamlet|I'm healthy!|]
+getHealthR = error "Not yet implemented: getHealthR"
