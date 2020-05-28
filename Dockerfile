@@ -6,4 +6,4 @@ ENV YESOD_PORT 8080
 RUN stack build
 RUN stack install
 EXPOSE 8080
-CMD [ “/usr/src/app/github-webhook-router” ]
+ENTRYPOINT ["/usr/src/app/run.sh" ]
