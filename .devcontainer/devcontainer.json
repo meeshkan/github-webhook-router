@@ -1,6 +1,9 @@
 {
   "name": "Haskell",
   "dockerFile": "Dockerfile",
+  "forwardPorts": [
+    3000
+  ],
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   }

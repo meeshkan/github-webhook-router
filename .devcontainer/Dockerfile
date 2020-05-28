@@ -1,3 +1,3 @@
 FROM fpco/stack-build:lts
-EXPOSE 8080
+RUN stack install yesod-bin --install-ghc
 EXPOSE 3000
