@@ -1,6 +1,7 @@
 module Handler.ReadinessCheck where
 
-import Import
+import           Import
+import qualified Data.Text                     as T
 
-getReadinessCheckR :: Handler Html
-getReadinessCheckR = error "Not yet implemented: getReadinessCheckR"
+getReadinessCheckR :: Handler Value
+getReadinessCheckR = return $ object ["works" .= T.pack "well"]
