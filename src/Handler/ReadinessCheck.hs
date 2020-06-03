@@ -4,4 +4,4 @@ import           Import
 import qualified Data.Text                     as T
 
 getReadinessCheckR :: Handler Value
-getReadinessCheckR = return $ object ["works" .= T.pack "well"]
+getReadinessCheckR = return $ object [T.pack "works" .= T.pack "well"]
