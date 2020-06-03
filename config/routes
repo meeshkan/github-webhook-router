@@ -9,4 +9,5 @@
 / HomeR GET POST
 
 /comments CommentR POST
-/_ah/health HealthR GET
+/_gcp/liveness_check HealthR GET
+/_gcp/readiness_check HealthR GET
