@@ -9,5 +9,5 @@
 / HomeR GET POST
 
 /comments CommentR POST
-/_gcp/readiness_check ReadinessCheckR GET
-/_gcp/liveness_check LivenessCheckR GET
+/readiness_check ReadinessCheckR GET
+/liveness_check LivenessCheckR GET
